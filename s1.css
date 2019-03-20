@@ -1,0 +1,25 @@
+
+#menu {
+    background-color: teal;
+    display: block;
+}
+#menu > ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#menu > ul > li{
+    float: left;
+}
+#menu > ul > li > a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: small;
+}
+#menu > ul > li > a:hover{
+    background-color: orange;
+}
+
